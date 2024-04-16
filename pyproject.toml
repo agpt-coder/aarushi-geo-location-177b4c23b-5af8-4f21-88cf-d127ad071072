@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aarushi-geo-location-1"
+version = "0.1.0"
+description = "Based on the interview, the user requires an API endpoint designed with FastAPI that handles geolocation data retrieval based on IP addresses. The following key points were highlighted during the discussions:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+databases = "^0.6.0"
+fastapi = "^0.82.0"
+prisma = "*"
+pydantic = "*"
+python-dotenv = "^0.21.0"
+sqlalchemy = "^1.4.41"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
